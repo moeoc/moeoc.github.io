@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '下列各项中，符合收入会计要素定义，可以确认为收入的是（    ）。', 'answers': [' A．出售无形资产收取的价款 ', 'B．出售固定资产收取的价款','C．销售材料收到的价款',' D．确认的政府补助利得'], 'correctAnswer': 3,'tipanswer':'答案：C', 'tip':'解析:销售材料属于日常活动，符合收入会计要素定义。' },{ 'question': '对于在合同中规定了买方有权退货条款的销售，如无法合理确定退货的可能性，则符合商品销售收入确认条件的时点是（   ）。', 'answers': [' A.发出商品时', '  B.收到货款时', 'C.签订合同时', ' D.退货期满'], 'correctAnswer': 4,'tipanswer':'答案：D', 'tip':'解析:针对附有退货条件的销售，如果企业不能合理估计退货可能性的，通常应在售出商品退货期满时确认收入。' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>

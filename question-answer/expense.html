@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '下列各项中，应列为管理费用处理的是(   )。', 'answers': [' A.自然灾害造成的流动资产净损失 ', 'B.筹建期间内发生的开办费','C.预提产品质量保证费用 ','  D.广告费'], 'correctAnswer': 2,'tipanswer':'答案：B', 'tip':'解析:自然灾害造成的流动资产净损失应计入营业外支出；筹建期间内发生的开办费应计入管理费用；预提产品质量保证费用计入销售费用；广告费应计入销售费用。' },{ 'question': '某企业2009年3月份发生的费用有：计提车问用固定资产折旧10万元，发生车间管理人员工资40万元，支付广告费用30万元，预提短期借款利息20万元，支付矿产资源补偿费10万元。则该企业当期的期间费用总额为(   )万元。', 'answers': [' A.50', '  B.60', 'C.100', ' D.110'], 'correctAnswer': 2,'tipanswer':'答案：B', 'tip':'解析:车间用固定资产折旧与车间管理人员的工资应该通过“制造费用”科目核算，制造费用不属于企业的期间费用，所以不计算在内。支付广告费计入销售费用，预提短期借款的利息计入财务赞用，支付的矿产资源补偿赞计入管理费用，销售费用、管理费用与财务费用属于期间费用，所以该企业当期的期间费用总额=30+20+10=60万元。' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>

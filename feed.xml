@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ 萌星系 }</title>
+		<description>Blog and website of Panos Sakkos, blogging mainly for tech. Opinions expressed are mine.</description>		
+		<link>http://panossakkos.github.io</link>
+		<atom:link href="http://panossakkos.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>如何学好会计</title>
+				        
+				
+					<description>作为同行先行者，按照我的经验给你几个建议：
+1. 如果想透彻的学习会计账务处理，要理论结合实际，一定要从最初的手工帐开始，亲自手写出来的凭证和账本会让你对每个科目、每笔数目记忆深刻。即使是做会计，尽量自己也记一本银行账，用处在于记明细账之前的练习和熟悉本月的账务内容。
+2. 流程中在T字帐之后根据T字帐还要填写一个记账凭证汇总表，装订时放在整本凭证封皮后第一页。
+3. 关于科目分类，要抓住这笔帐的主要特点，若有其他科目混淆，就把这些科目列出来，区分他们的不同点，多多接触就得心应手了。
+4. 明细账和总账只要按照凭证记下来，有借有贷，只要凭证没有错，没有其他要涉及的内容的。
+5. 补充一条，多多请教老会计，细心诚心的去问，还有自己不要太拘泥于书面文字，要关注一下关于你公司财务涉及的各项规章制度。
+加油，数字会在你手中跳舞，呵呵。
+
+</description>
+				
+				<pubDate>Tue, 11 Aug 2015 00:00:00 +0800</pubDate>
+				<link>http://panossakkos.github.io/tech/2015/08/11/ads.html</link>
+				<guid isPermaLink="true">http://panossakkos.github.io/tech/2015/08/11/ads.html</guid>
+			</item>
+		
+			<item>
+				<title>学习资产</title>
+				        
+				
+					<description>
+
+</description>
+				
+				<pubDate>Sun, 05 Jul 2015 00:00:00 +0800</pubDate>
+				<link>http://panossakkos.github.io/tech/2015/07/05/personal-jekyll-theme.html</link>
+				<guid isPermaLink="true">http://panossakkos.github.io/tech/2015/07/05/personal-jekyll-theme.html</guid>
+			</item>
+		
+			<item>
+				<title>学习金融</title>
+				        
+				
+					<description>###Photos
+
+</description>
+				
+				<pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
+				<link>http://panossakkos.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</link>
+				<guid isPermaLink="true">http://panossakkos.github.io/tech/2015/07/01/lessons-learned-from-assembling-a-3d-printer.html</guid>
+			</item>
+		
+			<item>
+				<title>学习经济</title>
+				        
+				
+					<description>
+
+</description>
+				
+				<pubDate>Sat, 27 Jun 2015 00:00:00 +0800</pubDate>
+				<link>http://panossakkos.github.io/tech/2015/06/27/blogging-like-a-hacker.html</link>
+				<guid isPermaLink="true">http://panossakkos.github.io/tech/2015/06/27/blogging-like-a-hacker.html</guid>
+			</item>
+		
+	</channel>
+</rss>

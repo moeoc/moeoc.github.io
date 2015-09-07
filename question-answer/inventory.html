@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '商品流通企业在采购商品过程中发生的运杂费等进货费用，应当计入存货采购成本。进货费用数额较小的，也可以在发生时直接计入当期费用。（   ）', 'answers': [' 对√','错× '], 'correctAnswer': 1,'tipanswer':'答案：对', 'tip':'解析:无' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '下列各项中，不符合资产会计要素定义的是(    )。', 'answers': [' A．原材料', 'B．委托加工物资', 'C．盘亏的固定资产', ' D．尚待加工的半成品'], 'correctAnswer': 1,'tipanswer':'答案：A', 'tip':'解析：“盘亏的固定资产”预期不会给企业带来经济利益，不属于企业的资产。' }, { 'question': '根据资产定义，下列各项中不属于资产特征的是(    )。', 'answers': ['A．资产是企业拥有或控制的经济资源 ', 'B．资产预期会给企业带来未来经济利益', 'C．资产是由企业过去交易或事项形成的', 'D．具有可辨认性'], 'correctAnswer': 4, 'tipanswer':'答案：D','tip':'解析：资产具有以下几个方面的特征：（1）资产应为企业拥有或者控制的资源；（2）资产预期会给企业带来经济利益；（3）资产是由企业过去的交易或者事项形成的。' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>

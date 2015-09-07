@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '企业在一定期间发生亏损，则企业在这一会计期间的所有者权益一定减少。（   ）', 'answers': [' A.对 ', ' B.错'], 'correctAnswer': 2,'tipanswer':'答案：B', 'tip':'解析:企业在一定期间发生亏损，由此会导致所有者权益的减少。但由于所有者权益中有些项目与盈亏无关（如实收资本和资本公积），因此不能说企业在一定期间发生亏损，则所有者权益一定减少。' },{ 'question': '下列各项中，不属于所有者权益的是（   ）。', 'answers': [' A.资本溢价 ', '  B.计提的盈余公积', 'C.投资者投入的资本', ' D.应付高管人员基本薪酬'], 'correctAnswer': 4,'tipanswer':'答案：D', 'tip':'解析:所有者权益包括实收资本（或股本）、资本公积、盈余公积和未分配利润。选项D通过应付职工薪酬核算。' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>

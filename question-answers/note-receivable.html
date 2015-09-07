@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>历史题库·资产</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+        .demo
+        {
+            width: 760px;
+            margin: 60px auto 10px auto;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script type="text/javascript">
+        var init = { 'questions': [{ 'question': '根据承兑人不同，商业汇票分为（   ）。', 'answers': [' A．商业承兑汇票 ', ' B．银行承兑汇票 ','C．银行本票 ','  D．银行汇票'], 'correctAnswer': [1,2],'tipanswer':'答案：AB', 'tip':'无' },{ 'question': '按现行会计准则规定，不能用“应收票据”及“应付票据”核算的票据包括(    )。', 'answers': [' A.银行汇票 ', ' B.银行本票 ','C.银行承兑汇票 ','  D.商业承兑汇票'], 'correctAnswer': [1,2],'tipanswer':'答案：AC', 'tip':'无' }] };
+
+        $(function () {
+            $('#quiz-container').jquizzy({
+                questions: init.questions
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <div id='quiz-container'>
+        </div>
+    </div>
+    <br />
+    <script src="/scripts/2bc/_gg_980_90.js" type="text/javascript"></script>
+</body>
+</html>
